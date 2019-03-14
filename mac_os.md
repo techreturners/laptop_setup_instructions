@@ -64,7 +64,8 @@ Homebrew is a package manager which we will use to help us install other program
 To install homebrew, open up the terminal (iTerm, from the above step) and run
 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e \
+"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 More details on HomeBrew can be [found here](https://brew.sh/)
