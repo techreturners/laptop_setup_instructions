@@ -10,6 +10,12 @@ We will be using tools included in Chrome web browser throughout the course so p
 
 We use Slack as our main communication tool so it's really worth having the desktop version, which can be downloaded [here](https://slack.com/downloads/linux). Choose the .deb version.
 
+If you have any problems with the above download, an alternative way to download Slack is by running the following command in your terminal
+
+```
+sudo snap install slack --classic
+```
+
 We would also recommend downloading it on your phone, so you can let us know if you happen to be running late etc.
 
 #### 3) Get a Github account
