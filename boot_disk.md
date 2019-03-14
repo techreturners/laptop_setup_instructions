@@ -37,6 +37,7 @@ This will respond with something similar to the following:
    2:                  Apple_HFS USBDISK                 30.4 GB    disk2s2
 ```
 
+
 In the above we can see that the `/dev/disk2` label is 30GB in size and that is our USB stick.
 
 ## Erasing the USB Drive
@@ -49,3 +50,20 @@ diskutil eraseDisk JHFS+ USBDISK /dev/disk2
 
 This gives the Drive a new name of **USBDISK** and puts the Mac OS Extended Journaled (JHFS+) filesystem on the drive.
 
+## Download USB ISO
+
+Head to the Ubuntu website and download the latest LTS version ISO.
+
+https://www.ubuntu.com/download/desktop
+
+## Download Etcher
+
+Etcher is a tool for creating bootable disk.
+
+https://www.balena.io/etcher/
+
+## Create USB Disk
+
+Once you have downloaded and installed Etcher, you can open it to create a bootable USB.
+
+Choose the (downloaded) Ubuntu ISO, your USB drive as the target and click **Flash**
