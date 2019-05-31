@@ -26,11 +26,7 @@ It is also the place prospective employers often look to see evidence of project
 
 Sign up to a free account [here](https://github.com) and make sure to email james.heggs@techreturners.com and harriet.ryder@techreturners.com your username so we can add you to our organisation.
 
-#### 4) Download Zoom
-
-We might use Zoom to host webinars, so sign up and download [Zoom here](https://zoom.us/meetings).
-
-#### 5) Download Visual Studio Code
+#### 4) Download Visual Studio Code
 
 When writing software, developers use tools to help them. One of those tools is known as an Integrated Development Environment or IDE for short. This is a tool that helps the developer when writing code.
 
@@ -38,7 +34,7 @@ You use an IDE to write software in the same way that you might use Microsoft Wo
 
 On this course we use a tool called Visual Studio Code to support our writing of code. So firstly head over to their website to [download and install Visual Studio Code](https://code.visualstudio.com/). Select the .deb version for Linux x64.
 
-#### 6) Install Terminator
+#### 5) Install Terminator
 
 Ubuntu comes with a built in terminal application (also referred to as _command line_ or _console_). We use the terminal to navigate and manipulate our filesystem, run commands and provide a more powerful interface than the GUI (Graphical User Interface) for interacting with our computer.
 
@@ -60,7 +56,7 @@ sudo apt-get install terminator
 
 Terminator should now be installed and ready to use.
 
-#### 7) Install Node
+#### 6) Install Node
 
 The next item to install is [NodeJS](https://nodejs.org/en/). Node provides the Javascript framework for running our code and applications.
 
@@ -98,9 +94,15 @@ Ensure NPM is installed by typing:
 npm --version
 ```
 
-If the output tells you the version is below 5.0.0 please let us know!
+If the output tells you the version is below 5.0.0 then run:
 
-#### 8) Install Git
+```
+npm install -g npm
+```
+
+And check the version again.
+
+#### 7) Install Git
 
 Git is a [Version Control System](https://en.wikipedia.org/wiki/Version_control) (VCS for short). At this stage don't worry too much about what Git is or what it does, we cover Version Control Systems and Git in more detail later. For now we just need to make sure it is installed on your laptop.
 
@@ -126,7 +128,7 @@ It should output something similar to:
 git version 2.11.0
 ```
 
-#### 9) Configure Git
+#### 8) Configure Git
 
 When using Git, messages about what changes you have made to a codebase will be recorded using your name and email address. For this to work correctly, you should configure Git with your name and email address. You should choose the email address which you used to sign up to Github, so that Git and Github integrate correctly. Open your terminal application and type the fo
 
@@ -151,7 +153,7 @@ user.name=Your Name
 user.email=youremail@domain.com
 ```
 
-#### 10) Get a notetaking app
+#### 9) Get a notetaking app
 
 Throughout the course you will probably want to take lots of notes, often with code samples. Microsoft Word/Apple Pages are not good choices for this kind of notetaking as they won't format your code correctly and will try to autocomplete in an annoying way.
 
