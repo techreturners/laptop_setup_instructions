@@ -20,11 +20,7 @@ It is also the place prospective employers often look to see evidence of project
 
 Sign up to a free account [here](https://github.com) and make sure to email harriet.ryder@techreturners.com and james.heggs@techreturners.com your username so we can add you to our organisation.
 
-#### 4) Download Zoom
-
-We might use Zoom to host webinars, so sign up and download [Zoom here](https://zoom.us/meetings).
-
-#### 5) Download Visual Studio Code
+#### 4) Download Visual Studio Code
 
 When writing software, developers use tools to help them. One of those tools is known as an Integrated Development Environment or IDE for short. This is a tool that helps the developer when writing code.
 
@@ -53,19 +49,18 @@ You can now quit Visual Studio Code.
 
 Further info on this process can be found [here under the **Launching from the command line**](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) heading
 
-#### 6) Install iTerm
+#### 5) Install iTerm
 
 Your Mac comes with a built in terminal application (also referred to as _command line_ or _console_). However, there are better applications available with more features. We recommend downloading and using [iTerm2 for Mac](https://www.iterm2.com/downloads.html).
 
-#### 7) Install Homebrew
+#### 6) Install Homebrew
 
 Homebrew is a package manager which we will use to help us install other programs.
 
 To install homebrew, open up the terminal (iTerm, from the above step) and run
 
 ```
-/usr/bin/ruby -e \
-"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 More details on HomeBrew can be [found here](https://brew.sh/)
@@ -78,7 +73,7 @@ Homebrew/homebrew-core (git revision 6464f; last commit 2019-03-12)
 Homebrew/homebrew-cask (git revision dcbd02; last commit 2019-03-12)
 ```
 
-#### 8) Install Node
+#### 7) Install Node
 
 The next item to install is [NodeJS](https://nodejs.org/en/). Node provides the Javascript framework for running our code and applications.
 
@@ -106,7 +101,7 @@ It should output something similar to the example below. NOTE: The version you s
 v8.11.1
 ```
 
-#### 9) Install Git
+#### 8) Install Git
 
 Git is a [Version Control System](https://en.wikipedia.org/wiki/Version_control) (VCS for short). At this stage don't worry too much about what Git is or what it does, we cover Version Control Systems and Git in more detail later this week. For now we just need to make sure it is installed on your laptop.
 
@@ -128,7 +123,7 @@ It should output something similar to:
 git version 2.11.0 (Apple Git-81)
 ```
 
-#### 10) Configure Git
+#### 9) Configure Git
 
 When using Git, messages about what changes you have made to a codebase will be recorded using your name and email address. For this to work correctly, you should configure Git with your name and email address. You should choose the email address which you used to sign up to Github, so that Git and Github integrate correctly. Open your terminal application and type the fo
 
@@ -153,7 +148,7 @@ user.name=Your Name
 user.email=youremail@domain.com
 ```
 
-#### 11) Get a notetaking app
+#### 10) Get a notetaking app
 
 Throughout the course you will probably want to take lots of notes, often with code samples. Microsoft Word/Apple Pages are not good choices for this kind of notetaking as they won't format your code correctly and will try to autocomplete in an annoying way.
 
