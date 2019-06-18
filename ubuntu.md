@@ -43,10 +43,6 @@ However, there are better applications available with more features than the def
 To install Terminator open your current terminal program and run the following commands, in order:
 
 ```
-sudo add-apt-repository ppa:gnome-terminator
-```
-
-```
 sudo apt-get update
 ```
 
