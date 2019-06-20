@@ -54,13 +54,7 @@ Terminator should now be installed and ready to use.
 
 #### 6) Install Node
 
-The next item to install is [NodeJS](https://nodejs.org/en/). Node provides the Javascript framework for running our code and applications.
-
-When you install Node it also installs [Node Package Manager](https://www.npmjs.com/) (NPM for short). Node Package Manager (NPM) is a piece of software that allows you to install other Javascript packages that have been created by the global software development community.
-
-The packages contain code written by other people and have been made available for everyone to use. Making your code available to the global community is a practice known as [Open Sourcing](https://en.wikipedia.org/wiki/Open-source_software) your software.
-
-For example - lets say you want to convert a number to its English description. Convert the number **100** to its description of **one hundred**. In programming terms this is harder than you might expect - however someone has already [created a piece of code that does this](https://www.npmjs.com/package/number-to-words) and it saves us from having to write our own code to solve this problem. Effectively, leaving us to focus on writing code for our own unique problems and businesses.
+The next item to install is called NodeJS.
 
 To install Node run the following commands in your terminal (Terminator) in the following order:
 
@@ -69,22 +63,38 @@ sudo apt update
 ```
 
 ```
-sudo apt install nodejs npm
+sudo apt install curl
 ```
 
-You should now see a lot of text on your console as Node gets installed. You can verify that node is installed by running:
+Then we use to tool Curl to install a program called Node Version Manager, the recommended tool which can be used to install Node!
 
 ```
-nodejs --version
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
-It should output something similar to the example below. NOTE: The version you see might differ to the example below. If it is below 8.0.0 please let one of us know!
+Then run:
 
 ```
-v8.11.1
+nvm --version
 ```
 
-Ensure NPM is installed by typing:
+To ensure that NVM is correctly installed. If it says "Command nvm not found" then try closing and reopening your Terminator application, and trying again. If it is installed correctly it should show a version number such as `0.33.0`
+
+Then, use NVM to install NodeJS:
+
+```
+nvm install node
+```
+
+To check it's installed correctly, run:
+
+```
+node -v
+```
+
+Again you should see a version number such as `v12.4.0`. Your version might be a little different but if it's less than 8 please let us know!
+
+NVM also should install an additional program called NPM. Verify it has installed by typing:
 
 ```
 npm --version
@@ -97,6 +107,16 @@ npm install -g npm
 ```
 
 And check the version again.
+
+###### What are Node and NPM?
+
+Node provides the Javascript framework for running our code and applications. It basically allows us to run JavaScript code on our computers which we'll learn how do do throughout the Pre-Journey.
+
+Node Package Manager (NPM) is a piece of software that allows you to install other Javascript packages that have been created by the global software development community.
+
+The packages contain code written by other people and have been made available for everyone to use. Making your code available to the global community is a practice known as [Open Sourcing](https://en.wikipedia.org/wiki/Open-source_software) your software.
+
+For example - lets say you want to convert a number to its English description. Convert the number **100** to its description of **one hundred**. In programming terms this is harder than you might expect - however someone has already [created a piece of code that does this](https://www.npmjs.com/package/number-to-words) and it saves us from having to write our own code to solve this problem. Effectively, leaving us to focus on writing code for our own unique problems and businesses.
 
 #### 7) Install Git
 
