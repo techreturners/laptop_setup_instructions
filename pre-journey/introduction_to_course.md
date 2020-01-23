@@ -9,11 +9,11 @@ p {
 }
 
 h2 {
- color: #5d257c;
- font-size: 2em;
- background-color: #5d257c;
+  color: #5d257c;
+  font-size: 2em;
+  background-color: #5d257c;
   padding: 5px;
-color: white;
+  color: white;
 }
 
 h4 {
@@ -27,7 +27,7 @@ a:link, a:visited, a:active {
     font-weight: 600;
 }
 </style>
-![logo.png](quiver-image-url/E2CF0213921AFE30E3D5364A7BFE4C28.png =395x57)
+![TR Logo](images/tr_logo_small.png)
 
 # Your Pre-Journey Into Tech
 
@@ -68,6 +68,7 @@ Feel free to email our coaches at any time if you need help! We also encourage y
 Our coaches:
 
 james.heggs@techreturners.com
+
 harriet.ryder@techreturners.com
 
 #### Contents
