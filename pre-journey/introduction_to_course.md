@@ -9,11 +9,11 @@ p {
 }
 
 h2 {
-  color: #5d257c;
-  font-size: 2em;
-  background-color: #5d257c;
+ color: #5d257c;
+ font-size: 2em;
+ background-color: #5d257c;
   padding: 5px;
-  color: white;
+color: white;
 }
 
 h4 {
@@ -27,6 +27,7 @@ a:link, a:visited, a:active {
     font-weight: 600;
 }
 </style>
+
 ![TR Logo](images/tr_logo_small.png)
 
 # Your Pre-Journey Into Tech
@@ -68,7 +69,6 @@ Feel free to email our coaches at any time if you need help! We also encourage y
 Our coaches:
 
 james.heggs@techreturners.com
-
 harriet.ryder@techreturners.com
 
 #### Contents
@@ -87,7 +87,9 @@ harriet.ryder@techreturners.com
 
 ## 1.Setting up your laptop
 
-For the course, and from section 4 onwards of the Pre-Journey Into Tech, you will need to have access to a laptop running a **Unix-based operating system**. You can read a little bit more about the history of the Unix operating system [here](https://www.howtogeek.com/182649/htg-explains-what-is-unix/). Mac laptops run an operating system called MacOS which is derived from the Unix operating system, so this is fine, however if you have a Windows operating system we ask you to install an additional operating system called Ubuntu, which is Unix-based.
+For the course, you will need to have access to a laptop running a **Unix-based operating system** or a **Windows Operating System with bash shell command line tool installed**. You can read a little bit more about the history of the Unix operating system [here](https://www.howtogeek.com/182649/htg-explains-what-is-unix/).
+
+The **bash shell command line tool**, available on Windows 10, allows you to use a unix-like environment from within a Windows PC.
 
 #### Why Unix?
 
@@ -95,15 +97,17 @@ For the course, and from section 4 onwards of the Pre-Journey Into Tech, you wil
 - You will likely be given a machine running a unix-based operating system in your role as a software developer
 - So we are all using a consistent operating system when working in class and on projects
 
-#### Installing Ubuntu on a Windows machine
+#### Preparing a Windows laptop
 
-Ubuntu can be installed alongside the Windows OS so that you have a choice of operating systems to use. To do this, you will first need to create a bootable disk for the Ubuntu operating system. There are various guides for how to do this, such as [this one](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows). You will then need to boot your laptop from this disk, and select the option to install Ubuntu alongside your current operating system.
+If you have a Windows Operating system, please follow [these instructions](https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10) for installing the bash shell command line tool.
 
-If you would like assistance with this process please let us know so we can book some time for you to come in and see us or provide remote help. It would be a good idea to get this sorted **as soon as possible**, so it doesn’t impede you from moving on with the Pre-Journey.
+If step 12 does not work, open the Windows Store from the Start menu instead of via the command line, and search for Ubuntu on Windows and install it. Then continue following the instructions.
 
-#### Preparing your Ubuntu laptop
+Then, follow [this guide](https://github.com/techreturners/laptop_setup_instructions/blob/master/windows.md) to set up various tools and programs that we will be using throughout the course.
 
-Once you have the Ubuntu operating system running, please follow [this guide](https://github.com/techreturners/laptop_setup_instructions/blob/master/ubuntu.md) to set up various tools and programs that we will be using throughout the course.
+#### Preparing an Ubuntu laptop
+
+If you are using an Ubuntu operating system, please follow [this guide](https://github.com/techreturners/laptop_setup_instructions/blob/master/ubuntu.md) to set up various tools and programs that we will be using throughout the course.
 
 #### Preparing your Mac laptop
 
