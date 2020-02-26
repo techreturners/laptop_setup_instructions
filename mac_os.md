@@ -75,7 +75,7 @@ Homebrew/homebrew-cask (git revision dcbd02; last commit 2019-03-12)
 
 #### 7) Install Node
 
-The next item to install is [NodeJS](https://nodejs.org/en/). Node provides the Javascript framework for running our code and applications.
+The next item to install is NodeJS. Node provides the Javascript framework for running our code and applications.
 
 When you install Node it also installs [Node Package Manager](https://www.npmjs.com/) (NPM for short). Node Package Manager (NPM) is a piece of software that allows you to install other Javascript packages that have been created by the global software development community.
 
