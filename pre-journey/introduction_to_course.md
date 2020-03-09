@@ -66,10 +66,9 @@ The Pre-Journey (like the course itself) is not a box-checking exercise. Don’t
 
 Feel free to email our coaches at any time if you need help! We also encourage you to chat to your peers on Slack - you'll all be working on the same material and probably getting stuck in the same places, so why not help one another?
 
-Our coaches:
+**Our Tech Coaches:** tech.coaches@techreturners.com
 
-james.heggs@techreturners.com
-harriet.ryder@techreturners.com
+**Our programme co-ordinator:** kate.leach@techreturners.com
 
 #### Contents
 
@@ -375,7 +374,7 @@ To get started, please watch the following videos:
 
 🎥 [Capturing user input to the program](https://storage.googleapis.com/tech-returners-course/Pre-Journey/capturing_user_input.mp4)
 
-When you are done, please push this project up to Github if you haven't been keeping Github up to date, and let James or Harriet know you have completed the Pre-Journey!
+When you are done, please push this project up to Github if you haven't been keeping Github up to date, and let our programme co-ordinator know.
 
 ## 10. Additional Reading/Resources
 
@@ -404,7 +403,7 @@ If you fancy some extra reading or resources, here’s a list of things we like.
 If you're local to Manchester, there are lots of brilliant local meetups which you can attend to begin getting involved in the local tech community. Many of the below events also have regional groups in other cities.
 
 #### CodeBar Manchester (also national):
-A free coding workshop suitable for complete beginners through to more experienced developers who want to learn something new. Experienced mentors will help you work through tutorials, or your own projects. Note that CodeBar is for underrepresented groups only. Harriet usually attends these meetups if you’d like to meet some of our team!
+A free coding workshop suitable for complete beginners through to more experienced developers who want to learn something new. Experienced mentors will help you work through tutorials, or your own projects. Note that CodeBar is for underrepresented groups only. Some of our tech coaches usually attend these meetups if you'd like to meet some of our team!
 [https://codebar.io/manchester](https://codebar.io/manchester)
 
 #### CodeAndStuff:
