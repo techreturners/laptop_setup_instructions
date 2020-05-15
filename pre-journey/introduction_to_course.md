@@ -247,6 +247,8 @@ First, please watch this video introducing you to CodeWars:
 
 🎥 [Getting started with Codewars](https://storage.googleapis.com/tech-returners-course/Pre-Journey/intro_to_codewars.mp4)
 
+🎥 [Join the Tech Returners Clan](https://storage.googleapis.com/tech-returners-course/Pre-Journey/code_wars_clan_video.mp4)
+
 Then, work through the following problems which we have selected for you. This will take some time, and to get you started we’ve got a few tips for you first:
 
 🎥 [Solving Problems on Codewars](https://storage.googleapis.com/tech-returners-course/Pre-Journey/solving_problems_on_codewars.mp4)
